@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+    <script>
+        function switchSubMenus(displaythis) {
+            document.getElementById("enlineadiv").style.display = "none";
+            document.getElementById("enespeciediv").style.display = "none";
+            document.getElementById("usodiv").style.display = "none";
+            document.getElementById(displaythis + "div").style.display = "block";
+        }
+    </script>
+</head>
+<title>Tu Casa A.C. (UDG Virtual - Diseno de Interfaces Humano-Computadora)</title>
+<body class="news">
+    <header>
+        <div class="nav">
+            <table align="center" style="width: 100%;">
+                <tr>
+                    <td style="width: 60%;text-align:left;">
+                        <img style="height:150px; width:180px;" src="img/logo.png" alt="Avatar" class="avatar">
+                        <h2>MAQUI.com.mx</h2>
+                    </td>
+                    <td style="width: 40%;text-align:right;" valign="bottom">
+                    </td>
+                </tr>
+            </table>
+
+            <ul>
+                <li class=""><a href="index.html">Inicio</a></li>
+                <li class=""><a href="empresa.html">Empresa</a></li>
+                <li class=""><a href="productos.html">Productos</a></li>
+                <li class=""><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <table class="tblContentLeft">
+            <tr style="height:50px;">
+                <td colspan="2"></td>
+                <td style="width:40%;"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <form>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre">
+                    
+                        <label for="emailCliente">e-Mail</label>
+                        <input type="text" id="emailCliente" name="emailCliente" placeholder="Escribe tu e-Mail de contacto para comunicarnos.">
+                    
+                        <label for="temas">Asunto</label>
+                        <select id="temas" name="temas">
+                            <option value="sitio">Problema con Sitio</option>
+                            <option value="emvio">Problema con envio</option>
+                            <option value="otros">Cotizacion</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="descripcion">Descripcion</label>
+                        <textarea id="descripcion" rows="5" cols="80">
+                        Explicanos brevemente tu motivo de contacto.
+                        </textarea>
+                        <br><br>
+                        <input type="submit" value="Submit" disabled>
+                    
+                    </form>
+                </td>
+            </tr>
+            <tr style="height:50px;">
+                <td colspan="3"></td>
+            </tr>
+        </table>
+    </section>
+    
+	<footer>
+        <br/>
+        <table class="tcfooter">
+            <tr>
+                <td align="left">
+                    <a href="terminos.html">&nbsp;&nbsp;Terminos y Condiciones</a>
+                </td>
+                <td align="left">
+                    <a href="privacidad.html">&nbsp;&nbsp;Aviso de Privacidad</a>
+                </td>
+                <td align="right">
+                    <form class="Contactosform" name="formadecontacto" action="javascript:alert('Esta seccion esta bajo construccion!');" method="POST">
+                        <table class="tcfooter">
+                            <tr>
+                                <td align="left" valign="middle">
+                                    <label for="correobtn">Contacto: +52 (81) 9999 9999</label>
+                                </td>
+                                <td align="left">
+                                    <input type="image" src="img/Mail-icon.png" id="correobtn" name="correobtn" width="50" height="50">
+                                </td>
+                                <td align="left">
+                                    <input type="image" src="img/Twitter-icon.png" id="twitterbtn" name="twitterbtn" width="50" height="50">
+                                </td>
+                                <td align="left">
+                                    <input type="image" src="img/Facebook.png" id="facebookbtn" name="facebookbtn" width="50" height="50">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+	</footer>
+</body>
+</html>

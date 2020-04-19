@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+        function switchSubMenus(displaythis) {
+            document.getElementById("accionesdiv").style.display = "none";
+            document.getElementById("voluntariosdiv").style.display = "none";
+            document.getElementById(displaythis + "div").style.display = "block";
+        }
+    </script>
+</head>
+<title>Tu Casa A.C. (UDG Virtual - Diseno de Interfaces Humano-Computadora)</title>
+<body class="news">
+    <header>
+        <div class="nav">
+            <table align="center" style="width: 100%;">
+                <tr>
+                    <td style="width: 60%;text-align:left;">
+                        <img style="height:150px; width:180px;" src="img/logo.png" alt="Avatar" class="avatar">
+                        <h2>MAQUI.com.mx</h2>
+                    </td>
+                    <td style="width: 40%;text-align:right;" valign="bottom">
+                    </td>
+                </tr>
+            </table>
+
+            <ul>
+                <li class=""><a href="index.html">Inicio</a></li>
+                <li class=""><a href="empresa.html">Empresa</a></li>
+                <li class=""><a href="productos.html" class="active">Productos</a></li>
+                <li class=""><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <table align="center" style="width: 50%;height: 500px;">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                        </tr>
+                        <tr>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                        </tr>
+                        <tr>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                            <td><img style="height:100; width:150px;" src="img/libro.jpg" alt="Producto" class="libroContenido"/></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+    
+	<footer>
+        <br/>
+        <table class="tcfooter">
+            <tr>
+                <td align="left">
+                    <a href="terminos.html">&nbsp;&nbsp;Terminos y Condiciones</a>
+                </td>
+                <td align="left">
+                    <a href="privacidad.html">&nbsp;&nbsp;Aviso de Privacidad</a>
+                </td>
+                <td align="right">
+                    <form class="Contactosform" name="formadecontacto" action="javascript:alert('Esta seccion esta bajo construccion!');" method="POST">
+                        <table class="tcfooter">
+                            <tr>
+                                <td align="left" valign="middle">
+                                    <label for="correobtn">Contacto: +52 (81) 9999 9999</label>
+                                </td>
+                                <td align="left">
+                                    <input type="image" src="img/Mail-icon.png" id="correobtn" name="correobtn" width="50" height="50">
+                                </td>
+                                <td align="left">
+                                    <input type="image" src="img/Twitter-icon.png" id="twitterbtn" name="twitterbtn" width="50" height="50">
+                                </td>
+                                <td align="left">
+                                    <input type="image" src="img/Facebook.png" id="facebookbtn" name="facebookbtn" width="50" height="50">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+	</footer>
+</body>
+</html>
